@@ -2,4 +2,4 @@ jupyterlab
 jupytext
 jupyterlab-git
 jupyterlab-drawio
-jupyterlab-code-snippets
+elyra-code-snippet-extension
