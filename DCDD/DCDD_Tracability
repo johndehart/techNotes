@@ -1,0 +1,20 @@
+A short review of Jira, where the structure is Family --> Capability --> Feature/MVP --> Story. 
+
+1. Links between the Family and Capability: There are no links (https://verticalflight.services.nres.navy.mil/jira/browse/FAM-25) even though the link is indicated on an associated confluence page https://verticalflight.services.nres.navy.mil/confluence/x/Lh3JBw. 
+
+2. Capability to Features: The Capbility (https://verticalflight.services.nres.navy.mil/jira/browse/CST-45) only references a confluence page https://verticalflight.services.nres.navy.mil/confluence/display/STRAT/Living+Lab+MVPs.
+
+3. Featrues: Features (https://verticalflight.services.nres.navy.mil/jira/browse/ART-281) do have links to stories but they are not associated with any MPVs (Which may or may not be correct... It just seemed logical that MVPs may be linked in somewhere). Feature does reference a link to a confluence page https://verticalflight.services.nres.navy.mil/confluence/display/STRAT/ADT+Living+Lab+Product+Line
+
+Summary of Potential issues:
+
+- No Direct Links Between Family and Capability
+- Capability to Feature Just References a Confluence Page
+- Feature to Story Links Lack MVP Context
+- Todo-List Approach to Story Linking
+
+Reccomendations:
+- Enhanced Traceability: Implement a more robust traceability matrix within JIRA itself to link Family, Capability, Features, and Stories. This would allow for easy tracking and alignment. (We can call these requirements of necessary)
+- MVP Context: Incorporate MVP-related tags or labels in JIRA to link Stories to specific MVPs under each Feature. This can help in sprint planning and backlog prioritization.
+- Documentation Links: While Confluence pages are useful for documentation, they should supplement, not replace, direct linkages in JIRA. Embed Confluence links within JIRA items as additional information.
+- Process Review: Conduct a quick audit to understand why these gaps exist and involve the team to remedy them. Sometimes, the process (or lack thereof) stems from misunderstandings or lack of knowledge about best practices.
